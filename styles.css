@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #00274d;
+    color: white;
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url(img/image.png) no-repeat center center/cover;
+    color: #00274d;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.features {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features .feature {
+    margin-bottom: 20px;
+}
+
+.features h2 {
+    font-size: 24px;
+    color: #00274d;
+}
+
+.footer {
+    background: #00274d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
